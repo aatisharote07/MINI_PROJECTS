@@ -11,7 +11,7 @@ class CSV:
     @classmethod
     def initialized_csv(cls):
         try:
-            pd.read_csv(r"C:\Users\HP\OneDrive\Documents\PROJECTS\PERSONAL FINANCE TRACKER\finance_data.csv")
+            df = pd.read_csv(r"C:\Users\HP\OneDrive\Documents\PROJECTS\PERSONAL FINANCE TRACKER\finance_data.csv")
         except FileNotFoundError: 
             df= pd.DataFrame(columns=cls.COLUMNS)
             df.to_csv(cls.CSV_FILE,index=False)
