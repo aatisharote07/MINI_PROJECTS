@@ -1,0 +1,106 @@
+date,amount,category,description
+01-03-2025,500,Debit,Lunch
+02-03-2025,1200,Debit,House Rent
+03-03-2025,300,Debit,Bus fare
+04-03-2025,1500,Debit,New clothes
+05-03-2025,700,Debit,Electricity Bill
+06-03-2025,450,Debit,Movie
+07-03-2025,2000,Debit,Monthly Rent
+08-03-2025,800,Debit,Dinner
+09-03-2025,900,Debit,Cab ride
+10-03-2025,100,Debit,Stationery
+11-03-2025,600,Debit,Breakfast
+12-03-2025,1100,Debit,Internet Bill
+13-03-2025,750,Debit,Concert Ticket
+14-03-2025,200,Debit,Metro Card Recharge
+15-03-2025,500,Debit,Grocery Shopping
+16-03-2025,8000,Credit,Salary
+17-03-2025,400,Debit,Gym Membership
+18-03-2025,850,Debit,Water Bill
+19-03-2025,300,Debit,Evening Snacks
+20-03-2025,1000,Debit,Books
+21-03-2025,250,Debit,Auto Fare
+22-03-2025,1200,Debit,House Rent
+23-03-2025,900,Debit,Dinner with Friends
+24-03-2025,600,Debit,Mobile Recharge
+25-03-2025,1500,Debit,Theme Park
+26-03-2025,550,Debit,Fast Food
+27-03-2025,700,Debit,Train Ticket
+28-03-2025,400,Debit,Gas Cylinder
+29-03-2025,5000,Credit,Freelance Payment
+30-03-2025,200,Debit,Charity Donation
+31-03-2025,500,Debit,Coffee & Snacks
+01-04-2025,700,Debit,Breakfast
+02-04-2025,1100,Debit,Electricity Bill
+03-04-2025,400,Debit,Bus fare
+04-04-2025,1800,Debit,New Jacket
+05-04-2025,500,Debit,Lunch
+06-04-2025,1200,Debit,Concert
+07-04-2025,2000,Debit,Monthly Rent
+08-04-2025,850,Debit,Dinner
+09-04-2025,950,Debit,Cab ride
+10-04-2025,8500,Credit,Salary
+11-04-2025,550,Debit,Breakfast
+12-04-2025,1200,Debit,Internet Bill
+13-04-2025,900,Debit,Movie Night
+14-04-2025,350,Debit,Metro Card Recharge
+15-04-2025,700,Debit,Grocery Shopping
+16-04-2025,1400,Debit,Sports Shoes
+17-04-2025,450,Debit,Gym Membership
+18-04-2025,900,Debit,Water Bill
+19-04-2025,350,Debit,Evening Snacks
+20-04-2025,5000,Credit,Freelance Payment
+21-04-2025,300,Debit,Auto Fare
+22-04-2025,1200,Debit,House Rent
+23-04-2025,950,Debit,Dinner with Friends
+24-04-2025,650,Debit,Mobile Recharge
+25-04-2025,1600,Debit,Amusement Park
+26-04-2025,600,Debit,Fast Food
+27-04-2025,750,Debit,Train Ticket
+28-04-2025,450,Debit,Gas Cylinder
+29-04-2025,6000,Credit,Part-time Job Income
+30-04-2025,250,Debit,Charity Donation
+01-05-2025,500,Debit,Breakfast
+02-05-2025,1200,Debit,House Rent
+03-05-2025,400,Debit,Bus fare
+04-05-2025,1600,Debit,New Clothes
+05-05-2025,750,Debit,Electricity Bill
+06-05-2025,500,Debit,Movie Night
+07-05-2025,2100,Debit,Monthly Rent
+08-05-2025,900,Debit,Dinner
+09-05-2025,950,Debit,Cab ride
+10-05-2025,9000,Credit,Salary
+11-05-2025,600,Debit,Breakfast
+12-05-2025,1300,Debit,Internet Bill
+13-05-2025,800,Debit,Concert Ticket
+14-05-2025,250,Debit,Metro Card Recharge
+15-05-2025,600,Debit,Grocery Shopping
+16-05-2025,1350,Debit,New Shoes
+17-05-2025,500,Debit,Gym Membership
+18-05-2025,950,Debit,Water Bill
+19-05-2025,400,Debit,Evening Snacks
+20-05-2025,7000,Credit,Freelance Payment
+21-05-2025,350,Debit,Auto Fare
+22-05-2025,1250,Debit,House Rent
+23-05-2025,950,Debit,Dinner with Friends
+24-05-2025,700,Debit,Mobile Recharge
+25-05-2025,1700,Debit,Theme Park
+26-05-2025,650,Debit,Fast Food
+27-05-2025,800,Debit,Train Ticket
+28-05-2025,500,Debit,Gas Cylinder
+29-05-2025,1450,Debit,Accessories
+30-05-2025,8000,Credit,Freelance Payment
+31-05-2025,550,Debit,Coffee & Snacks
+01-06-2025,4500,Credit,Bonus from Work
+02-06-2025,3000,Credit,Investment Returns
+03-06-2025,2500,Credit,Freelance Project
+04-06-2025,1800,Credit,Refund from Online Purchase
+05-06-2025,1000,Credit,Side Hustle Income
+06-06-2025,2700,Credit,Commission from Sales
+07-06-2025,3200,Credit,Stock Dividends
+08-06-2025,4000,Credit,Consulting Income
+09-06-2025,1500,Credit,Gift from Family
+10-06-2025,2900,Credit,Performance Bonus
+
+
+
