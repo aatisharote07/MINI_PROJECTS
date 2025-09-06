@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 My Todo List</h1>
+        
+        <!-- Flash messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        
+        <!-- Add new todo form -->
+        <form action="{{ url_for('add_todo') }}" method="POST" class="add-todo-form">
+            <div class="input-group">
+                <input type="text" name="todo_text" placeholder="Enter a new todo..." required>
+                <button type="submit" class="btn btn-primary">Add Todo</button>
+            </div>
+        </form>
+        
+        <!-- Todo list -->
+        <div class="todo-list">
+            {% if todos %}
+                {% for todo in todos %}
+                    <div class="todo-item {{ 'completed' if todo.completed else '' }}">
+                        <div class="todo-content">
+                            <span class="todo-text">{{ todo.text }}</span>
+                            <div class="todo-actions">
+                                <a href="{{ url_for('toggle_todo', todo_id=todo.id) }}" 
+                                   class="btn btn-toggle {{ 'btn-completed' if todo.completed else 'btn-pending' }}">
+                                    {{ '✓' if todo.completed else '○' }}
+                                </a>
+                                <a href="{{ url_for('delete_todo', todo_id=todo.id) }}" 
+                                   class="btn btn-delete" 
+                                   onclick="return confirm('Are you sure you want to delete this todo?')">
+                                    🗑️
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <div class="empty-state">
+                    <p>No todos yet! Add one above to get started.</p>
+                </div>
+            {% endif %}
+        </div>
+        
+        <!-- Stats -->
+        {% if todos %}
+            <div class="stats">
+                <p>Total: {{ todos|length }} | 
+                   Completed: {{ todos|selectattr('completed')|list|length }} | 
+                   Pending: {{ todos|rejectattr('completed')|list|length }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
